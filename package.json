@@ -1,0 +1,29 @@
+{
+  "name": "readme-generator-command-line",
+  "version": "1.0.0",
+  "description": "A command line readme file generator built with node-js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himanshu-sxna/readme-generator-command-line.git"
+  },
+  "keywords": [
+    "node-js",
+    "cli",
+    "readme"
+  ],
+  "author": "himanshu saxena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/himanshu-sxna/readme-generator-command-line/issues"
+  },
+  "homepage": "https://github.com/himanshu-sxna/readme-generator-command-line#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "file-system": "^2.2.2",
+    "inquirer": "^7.3.3"
+  }
+}

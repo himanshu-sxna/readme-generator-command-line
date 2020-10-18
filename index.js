@@ -7,7 +7,7 @@ const writeFile = require("./modules/writeFile");
 
     let userResponses = await getReadmeInfo.getReadmeInfo();
 
-    console.log(userResponses);
+    axios.getGitInfo(userResponses.user_name);
 
 }
 

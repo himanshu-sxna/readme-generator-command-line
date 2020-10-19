@@ -52,18 +52,14 @@ module.exports = {
               {
                   name: "user_name",
                   type: "input",
-                  message: "enter your Github username"
-              },
-              {
-                  name: "table_of_contents",
-                  type: "confirm",
-                  message: "Would you like to include a table of contents ?",
-                  suffix: "  It is recommended that you do"
-              },
-              {
-                name: "badges",
-                type: "confirm",
-                message: "Please write what badges ",
+                  message: "enter your Github username",
+                  validate: (input) => {
+                    if (input.length < 1 ) {
+                        console.log("Please enter your username")
+                    } else {
+                        return true;
+                    } 
+                    }
               }
         ];
     

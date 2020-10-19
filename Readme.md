@@ -1,5 +1,9 @@
 # Command Line Readme Generator
 
+![Node 14.3.1](https://img.shields.io/badge/node-14.3.1-red)
+![inquirer](https://img.shields.io/badge/npm-inquirer-orange)
+![axios](https://img.shields.io/badge/npm-axios-orange)
+![file-system](https://img.shields.io/badge/npm-file-system-orange)
 ![License Badge](https://img.shields.io/badge/license-MIT-green)
 
 This is a command-line application that runs with Node.js, it dynamically generates a README.md file based on user input.

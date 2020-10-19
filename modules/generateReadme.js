@@ -4,21 +4,21 @@ module.exports = {
     generateReadme: (inquirerResponse, axiosResponse) => {
 
 
-        let tableOfContents = `## Table of Contents \n\n- [Descriptiion(#description)\n-[License](#license)\n`;
+        let tableOfContents = `## Table of Contents \n\n- [Descriptiion(#description)\n- [License](#license)\n`;
 
         if (inquirerResponse.install !== ""){
-            tableOfContents += `-[Installation](#installation)\n`
+            tableOfContents += `- [Installation](#installation)\n`
         };
 
         if (inquirerResponse.usage !== ""){
-            tableOfContents += `-[Usage](#usage)\n`
+            tableOfContents += `- [Usage](#usage)\n`
         };
 
         if (inquirerResponse.tets !== ""){
-            tableOfContents += `-[Tests](#tests)\n`
+            tableOfContents += `- [Tests](#tests)\n`
         }
 
-        tableOfContents += `-[Developer Info](#devInfo)\n\n`;
+        tableOfContents += `- [Developer Info](#devInfo)\n\n`;
 
         let readmeFile = 
             `# ${inquirerResponse.title}\n\n![License Badge](https://img.shields.io/badge/license-${inquirerResponse.license}-green)\n\n\n`
@@ -42,7 +42,7 @@ module.exports = {
                 readmeFile +=`## <a name="tests"></a>Tests\n\n${inquirerResponse.tests}\n\n\n`
                 };
         
-            readmeFile += `## <a name="devInfo> Developer Info\n\n`;
+            readmeFile += `## <a name="devInfo></a> Developer Info\n\n`;
 
         return readmeFile;
     }

@@ -1,6 +1,6 @@
 # Command Line Readme Generator
 
-https://img.shields.io/badge/license-MIT-green
+![License Badge](https://img.shields.io/badge/license-MIT-green)
 
 This is a command-line application that runs with Node.js, it dynamically generates a README.md file based on user input.
 
@@ -41,7 +41,7 @@ MIT License
 
 ## <a name="developer-info"></a>Developer Info
 
- Feel free to contact me withwith any questions:
+ Feel free to contact me with any questions:
 
 GitHub: [@himanshu-sxna](https://api.github.com/users/himanshu-sxna)
 

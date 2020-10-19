@@ -1,15 +1,21 @@
 
 const getReadmeInfo = require ("./modules/getReadmeInfo.js");
 const axios = require("./modules/axios");
+const generateReadme = require("./modules/generateReadme");
 const writeFile = require("./modules/writeFile");
 
  const mainFunction = async () => {
 
-    let userResponses = await getReadmeInfo.getReadmeInfo();
+    let getUserResponses = await getReadmeInfo.getReadmeInfo();
 
-    let userGitId = userResponses.user_name;
+    let getUserGitId = (getUserResponses.user_name);
 
-    axios.getGitInfo(userGitId);
+    let getUserGitInfo = await axios.getGitInfo(getUserGitId);
+
+    let getFileContents = await generateReadme.generateReadme(getUserResponses, getUserGitInfo);
+
+    writeFile.writeFile(getFileContents);
+
 
 }
 

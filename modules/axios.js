@@ -7,6 +7,8 @@ module.exports = {
         try{
             let apiResponse =  await axios.get(`https://api.github.com/users/${userName}`);
             console.log(apiResponse.data.login);
+            return apiResponse;
+            
         } catch (error) {
             console.error(error);
          } 

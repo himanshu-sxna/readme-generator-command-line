@@ -25,7 +25,7 @@ The application itself can be invoked with `node index.js`.
 
 ## <a name="usage"></a>Usage 
 
-![Gif demo of README-generator](readme-demo.gif)
+![Demo of README-generator](readme-demo.gif)
 
 When you run `node index.js`, the application uses the `inquirer` package to prompt the user  with a series of questions about about their project.
 
@@ -34,7 +34,7 @@ It will then generate markdown and a table of contents for the README based on u
 The README will also include a badge for the license type specified.
 
 Finally, `fs.writeFile` is used to generate the README.md file.  
-Check out the [`ExampleREADME.md`](https://github.com/connietran-dev/readme-generator/blob/master/ExampleREADME.md) in this repo as an example. 
+Check out the [`demoReadme.md`](demoReadme.md) as an example.  
 
 
 ## <a name="license"></a>License

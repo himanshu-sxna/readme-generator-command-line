@@ -5,7 +5,7 @@
 
 ## Table of Contents 
 
-- [Descriptiion(#description)
+- [Description](#description)
 - [License](#license)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -21,7 +21,7 @@ This is a demo description
 MIT
 ## <a name="installation"></a>Installation
 
-No instructions required
+No installation instructions required
 
 
 ## <a name="usage"></a>Usage
@@ -31,8 +31,8 @@ Not Applicable
 
 ## <a name="tests"></a>Tests
 
-No tests required
+No testing required
 
 
-## <a name="devInfo></a> Developer Info
+## <a name="devInfo"></a> Developer Info
 

@@ -4,7 +4,7 @@ module.exports = {
     generateReadme: (inquirerResponse, axiosResponse) => {
 
 
-        let tableOfContents = `## Table of Contents \n\n- [Descriptiion(#description)\n- [License](#license)\n`;
+        let tableOfContents = `## Table of Contents \n\n- [Description](#description)\n- [License](#license)\n`;
 
         if (inquirerResponse.install !== ""){
             tableOfContents += `- [Installation](#installation)\n`
@@ -42,7 +42,7 @@ module.exports = {
                 readmeFile +=`## <a name="tests"></a>Tests\n\n${inquirerResponse.tests}\n\n\n`
                 };
         
-            readmeFile += `## <a name="devInfo></a> Developer Info\n\n`;
+            readmeFile += `## <a name="devInfo"></a> Developer Info\n\n`;
 
         return readmeFile;
     }

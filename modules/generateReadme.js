@@ -32,17 +32,17 @@ module.exports = {
                 readmeFile +=`## <a name="installation"></a>Installation\n\n${inquirerResponse.install}\n\n\n`
                 };
 
-                if (inquirerResponse.usage !== '') {
+            if (inquirerResponse.usage !== '') {
   
-                    readmeFile +=`## <a name="usage"></a>Usage\n\n${inquirerResponse.usage}\n\n\n`
-                    };
+                readmeFile +=`## <a name="usage"></a>Usage\n\n${inquirerResponse.usage}\n\n\n`
+                };
 
-                    if (inquirerResponse.tests !== '') {
+            if (inquirerResponse.tests !== '') {
   
-                        readmeFile +=`## <a name="tests"></a>Tests\n\n${inquirerResponse.tests}\n\n\n`
-                        };
+                readmeFile +=`## <a name="tests"></a>Tests\n\n${inquirerResponse.tests}\n\n\n`
+                };
         
-                        readmeFile += `## <a name="devInfo> Developer Info\n\n`;
+            readmeFile += `## <a name="devInfo> Developer Info\n\n`;
 
         return readmeFile;
     }

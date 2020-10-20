@@ -27,7 +27,7 @@ module.exports = {
 
             readmeFile += tableOfContents;
 
-            readmeFile+= `## <a name="description"></a>Description\n\n${inquirerResponse.desc}\n\n\n## <a name="license"></a>License\n${inquirerResponse.license}\n`;
+            readmeFile+= `## <a name="description"></a>Description\n\n${inquirerResponse.desc}\n\n\n## <a name="license"></a>License\n${inquirerResponse.license}\n\n`;
 
             // Only add sections to readme if the user has provided a response 
             if (inquirerResponse.install !== '') {

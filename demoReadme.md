@@ -19,19 +19,20 @@ This is a demo description
 
 ## <a name="license"></a>License
 MIT
+
 ## <a name="installation"></a>Installation
 
-There are no installation instructions
+No instructions required
 
 
 ## <a name="usage"></a>Usage
 
-There are no examples for this project
+The are no examples for this project
 
 
 ## <a name="tests"></a>Tests
 
-There is no testing required
+No tests are required to be run
 
 
 ## <a name="devInfo"></a> Developer Info

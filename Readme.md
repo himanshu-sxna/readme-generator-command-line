@@ -25,7 +25,7 @@ The application itself can be invoked with `node index.js`.
 
 ## <a name="usage"></a>Usage 
 
-![Demo of README-generator](readme-demo.gif)
+![Demo of README-generator](images/demo.gif)
 
 When you run `node index.js`, the application uses the `inquirer` package to prompt the user  with a series of questions about about their project.
 

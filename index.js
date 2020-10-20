@@ -1,10 +1,11 @@
-
+// import all local modules
 const getReadmeInfo = require ("./modules/getReadmeInfo.js");
 const axios = require("./modules/axios");
 const generateReadme = require("./modules/generateReadme");
 const writeFile = require("./modules/writeFile");
 
- const mainFunction = async () => {
+// this is the main fucntion that calls the module functions using async/await
+const mainFunction = async () => {
 
     let getUserResponses = await getReadmeInfo.getReadmeInfo();
 
@@ -18,5 +19,6 @@ const writeFile = require("./modules/writeFile");
 
 
 }
-
 mainFunction();
+
+

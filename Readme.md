@@ -47,7 +47,7 @@ MIT License
 
  Feel free to contact me with any questions:
 
-GitHub: [@himanshu-sxna](https://api.github.com/users/himanshu-sxna)
+GitHub: [@himanshu-sxna](https://github.com/himanshu-sxna)
 
 Email: contact@hellohimanshu.com
 

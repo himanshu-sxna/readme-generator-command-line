@@ -21,18 +21,19 @@ This is a demo description
 MIT
 ## <a name="installation"></a>Installation
 
-No installation instructions required
+There are no installation instructions
 
 
 ## <a name="usage"></a>Usage
 
-Not Applicable
+There are no examples for this project
 
 
 ## <a name="tests"></a>Tests
 
-No testing required
+There is no testing required
 
 
 ## <a name="devInfo"></a> Developer Info
 
+Github: [@himanshu-sxna](https://github.com/himanshu-sxna)

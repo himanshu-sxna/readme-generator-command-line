@@ -1,3 +1,4 @@
+// write the Readme file and name it "demoReadme.md"
 const fs = require('fs');
 
 module.exports = {

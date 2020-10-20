@@ -1,4 +1,4 @@
-
+// inquirer module function tio ask user for readme info 
 const inquirer = require ("inquirer");
 
 module.exports = {
@@ -17,6 +17,7 @@ module.exports = {
                 name: "desc",
                 type: "input",
                 message: "Description for your repo/project:",
+                // the description must not be blank or no response
                 validate: (input) => {
                         if (input.length < 1 ) {
                             console.log("A valid project description is required")
@@ -53,6 +54,7 @@ module.exports = {
                   name: "user_name",
                   type: "input",
                   message: "enter your Github username",
+                  // the Github username cannot be blank
                   validate: (input) => {
                     if (input.length < 1 ) {
                         console.log("Please enter your username")

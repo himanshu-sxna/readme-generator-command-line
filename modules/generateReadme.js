@@ -48,6 +48,7 @@ module.exports = {
         // Markdown for The developer Info section, based on axios response data
         let devInfo = `## <a name="devInfo"></a> Developer Info\n\nGithub: [@${axiosResponse.data.login}](https://github.com/${axiosResponse.data.login})\n`;
 
+                // if the email is present in API response add it to developer inform section
                 if (axiosResponse.data.email !== null){
                     devInfo += `Email: ${axiosResponse.data.email}`;
                 }
